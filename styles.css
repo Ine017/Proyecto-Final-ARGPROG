@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.start{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('assets/taza-cafe-computadora-portatil-playa.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #F5F5F5;
+}
+
+.start .section-content{
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+   padding: 0px 10px;
+}
+
+.start .section-content header{
+    padding: 30px;
+}
+
+.start .section-content header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #F05454;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.start .section-content header nav a{
+    display: block;
+    color: #F5F5F5;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.start .section-content header .nav-bar{
+    position: fixed;
+    background-color: #F05454;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #F5F5F5;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.start .section-content header .nav-bar:hover{
+    box-shadow: 0 0 35px #F5F5F5;
+    background-color: #30475E;
+    color: #F05454;
+}
+
+.start .section-content .info{
+    padding-bottom: 130px;
+}
+
+.start .section-content .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.start .section-content .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.start .section-content .info .social-media{
+    margin: 20px 0;
+}
+
+.start .section-content .info .social-media a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F05454;
+    color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.start .section-content .info .social-media a:hover{
+    box-shadow: 0 0 35px #F5F5F5;
+    background-color: #30475E;
+    color: #F05454;  
+}
+
+.start .section-content .photo{
+    position: relative;
+}
+
+.start .section-content .photo img{
+    max-width: 200px;
+    border: 1px solid #F5F5F5;
+    border-radius: 50%;
+    position: relative;
+    /* 
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%); */ 
+}
+
+.aboutme{
+    background-color: #F5F5F5;
+    padding: 140px 0 100px 0;
+    text-align: left;
+    margin: 10px;
+
+}
+
+.aboutme .section-content{
+    max-width: 1000px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.aboutme .section-content h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.aboutme .section-content .special{
+    color: #F05454;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.aboutme .section-content p{
+    max-width: 700px;
+    margin: 10px;
+}
+
+.aboutme .section-content .row{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.aboutme .section-content .row .col{
+    width: 30%;
+    
+}
+
+.aboutme .section-content .row .col i{
+    color: #F05454;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #30475E;
+    line-height: 40px; ;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.aboutme .section-content .row .col span{
+    font-weight: bold;
+    margin: 8px 0;
+    
+}
+
+/* skills??? */
+
+.summary{
+    background-color: #30475E;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.summary .section-content{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.summary .section-content h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.summary .section-content .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.summary .section-content .info .col{
+    width: 45%;
+}
+
+.summary .section-content .info .col .title{
+    display: inline-block;
+    color: #F05454;
+    font-weight: bold;
+    border: #F05454 2px solid;
+    padding: 10px;
+}
+
+.summary .section-content .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.summary .section-content .info .col table .data{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+    
+}
+
+.summary .section-content .info .col table h4{
+    margin-top: 10px;
+}
+
+.summary .section-content .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.summary .section-content .info .col table p{
+    font-size: 14px;
+}
+
+.summary .section-content .info .col table .description{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+
+.contact{
+    background-color: #F05454;
+    padding: 40px;
+    color: #F5F5F5;
+    text-align: start;
+}
+
+.contact .contact-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact .contact-section h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contact .contact-section .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .contact-section .row .col{
+    margin-top: 50px;
+}
+
