@@ -276,3 +276,32 @@ html{
     margin-top: 50px;
 }
 
+@media screen and (max-width:800px){
+    .aboutme .section-content .row{
+        display: block;
+    }
+
+    .aboutme .section-content .row .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .summary .section-content .info{
+        display: block;
+    }
+
+    .summary .section-content .info .col{
+        width: 90%;
+        margin: auto;
+    }
+
+    .summary .section-content .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .contact .contact-section .row{
+        display: block;
+    }
+}
