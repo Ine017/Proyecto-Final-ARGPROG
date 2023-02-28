@@ -1,7 +1,7 @@
 var visibleMenu = false;
 let menu = document.getElementById("nav");
 function showHideMenu(){
-    if(visibleMenu==false){//si esta oculto
+    if(visibleMenu==false){
         menu.style.display = "block";
         visibleMenu = true;
     }
